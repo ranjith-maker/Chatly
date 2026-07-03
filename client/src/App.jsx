@@ -6,7 +6,7 @@ import Profile from './pages/Profile'
 import PersistUser from './customHooks/PersistUser'
 import { useSelector, useDispatch  } from 'react-redux'
 import Home from './pages/Home'
-import GetOtherUser from './customHooks/getOtherUser'
+import GetOtherUser from './customHooks/GetOtherUser'
 import { useSocket } from './customHooks/useSocket'
 
 
