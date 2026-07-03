@@ -48,7 +48,7 @@ const response = await axios.post(url + '/api/login-user',
 
 formData , {withCredentials :true}  )
 
-console.log(response.data);
+
 setLoading(false)
 
 dispatch(setUserData(response.data.data))

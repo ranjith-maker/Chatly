@@ -19,14 +19,14 @@ const url = import.meta.env.VITE_BASE_URL
 try {
     
 const {data} = await axios.get(url + '/api/get-others' , {withCredentials : true} )
-console.log(data);
+
 
 dispatch(setOtherUsers(data.data))
 
 
 
 } catch (err) {
-console.log(err.message)
+// console.log(err.message)
     
 
 }

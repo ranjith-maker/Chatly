@@ -21,7 +21,7 @@ const {data} = await axios.get(url + '/api/view-profile' , {withCredentials : tr
 dispatch(setUserData(data.data))
 
 } catch (err) {
-console.log(err.message)
+// console.log(err.message)
   
 }
 

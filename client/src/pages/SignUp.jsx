@@ -52,7 +52,7 @@ const response = await axios.post(url + '/api/signup-user',
 
 formData  , {withCredentials : true} )
 setLoading(false)
-console.log(response);
+
 dispatch(setUserData(response.data.data))
 return navigate('/profile')
 

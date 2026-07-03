@@ -13,8 +13,7 @@ export const sendMessage = catchAsync(async (req, res, next) => {
   const { message } = req.body;
 
 
-  console.log("FILE =>", req.file);
-console.log("BODY =>", req.body);
+  
 
   if (!receiverId) {
     throw new AppError("Receiver is required", 400);

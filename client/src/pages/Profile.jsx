@@ -85,12 +85,12 @@ const updateUser = response.data
 dispatch(setUserData(updateUser))
 setSaving(false)
 
-console.log(response.data);
+
 
 
 } catch (err) {
   
-console.log(err?.response?.data?.message);
+// console.log(err?.response?.data?.message);
 setSaving(false)
 
 }
