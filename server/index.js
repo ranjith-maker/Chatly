@@ -60,6 +60,7 @@ server.listen(PORT,()=>{
 })    
 }).catch((err)=>{
     console.log('Failed to connect to DB and server')
+    console.log('Error :', err)
     
 })
 
